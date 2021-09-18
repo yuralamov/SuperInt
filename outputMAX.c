@@ -7,8 +7,7 @@
 int main()
 {
     unsigned long a;
-    a = ULONG_MAX;
-    printf("%lu\n",a);
-
+    printf("Беззнаковое длинное: u\n",ULONG_MAX);
+    printf("%llu\n",ULLONG_MAX);
     return 0;
 }
